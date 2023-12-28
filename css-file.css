@@ -607,9 +607,12 @@ table th {
     margin-bottom: 10px;
     align-items: center;
     display: flex;
+    justify-content:space-between
 }
 #btnsDIV{
     display: flex;
+    width:100%;
+    justify-content:space-between;
 }
 .scrlBTNs i {
     color: #fff;
@@ -620,6 +623,7 @@ table th {
     display: inline-block;
     text-align: center;
     padding: 10px 5px;
+    width:100%;
     margin: 3px 10px;
     max-height: 500px;
     overflow: auto;
