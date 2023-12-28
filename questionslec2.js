@@ -324,12 +324,8 @@ const MainScrptQues = [
   },
   {
     id: 20,
-    q: "Which of the following are acceptable formats for reporting comprehensive income?
-I.In one continuous financial statement
-II.In a statement of changes in equity
-III.In a separate statement of net income
-IV.In two separate but consecutive financial statements",
-  options: [
+    q: "Which of the following are acceptable formats for reporting comprehensive income? I.In one continuous financial statement II.In a statement of changes in equity III.In a separate statement of net income IV.In two separate but consecutive financial statements",
+options: [
       "a. I and II only.",
       "b. I, II, and III only.",
       "c. III and IV only.",
@@ -345,41 +341,41 @@ IV.In two separate but consecutive financial statements",
   },
   {
     id: 21,
-    q: "An entity had the following account balances in the pre-closing trial balance:
+    q: `An entity had the following account balances in the pre-closing trial balance:
       < table >
-  <tr>
-    <th>Item</th>
-    <th>Amount</th>
-  </tr>
-  <tr>
-    <td>Opening inventory</td>
-    <td>$100,000</td>
-  </tr>
-  <tr>
-    <td>Closing inventory</td>
-    <td>$150,000</td>
-  </tr>
-  <tr>
-    <td>Purchases</td>
-    <td>$400,000</td>
-  </tr>
-  <tr>
-    <td>Transportation-in</td>
-    <td>$6,000</td>
-  </tr>
-  <tr>
-    <td>Purchase discounts</td>
-    <td>$40,000</td>
-  </tr>
-  <tr>
-    <td>Purchase allowances</td>
-    <td>$15,000</td>
-  </tr>
-  <tr>
-    <td>Returned purchases</td>
-    <td>$5,000</td>
-  </tr>
-</table > The entity had net purchases for the period of",
+        <tr>
+          <th>Item</th>
+          <th>Amount</th>
+        </tr>
+        <tr>
+          <td>Opening inventory</td>
+          <td>$100,000</td>
+        </tr>
+        <tr>
+          <td>Closing inventory</td>
+          <td>$150,000</td>
+        </tr>
+        <tr>
+          <td>Purchases</td>
+          <td>$400,000</td>
+        </tr>
+        <tr>
+          <td>Transportation-in</td>
+          <td>$6,000</td>
+        </tr>
+        <tr>
+          <td>Purchase discounts</td>
+          <td>$40,000</td>
+        </tr>
+        <tr>
+          <td>Purchase allowances</td>
+          <td>$15,000</td>
+        </tr>
+        <tr>
+          <td>Returned purchases</td>
+          <td>$5,000</td>
+        </tr>
+      </table > The entity had net purchases for the period of`,
 options: [
   "a. $340,000",
   "b. $346,000",
@@ -413,7 +409,7 @@ options: [
 },
 {
   id: 23,
-    q: "The following information was taken from last year’s accounting records of a manufacturing company.   <table>
+    q: `The following information was taken from last year’s accounting records of a manufacturing company.   <table>
       < tr >
     <th>Inventory</th>
     <th>Jan. 1</th>
@@ -471,7 +467,7 @@ options: [
     <td>Material handling costs</td>
     <td colspan="2">$35,800</td>
   </tr>
-</table > On the basis of this information, the company’s cost of goods manufactured and cost of goods sold are: ",
+</table > On the basis of this information, the company’s cost of goods manufactured and cost of goods sold are: "`,
   options: [
     "a. $460,500 and $489,500, respectively.",
     "b. $468,500 and $439,500, respectively.",
@@ -484,12 +480,11 @@ options: [
           yourNote: "",
             yourChck: "",
               id2: 1,
-                ansExplain: '<div class="ExplnAns">Correct answer is B.</div> COGM = Used Material + DL + MOH + Beg. WIP – End. WIP = (115,000 + 35,800 + 38,000 – 45,000) + 236,000 + (59,000 + 18,700) + 21,000 – 10,000 = 468,500 , COGS = COGM + Beg. FG – End. FG => COGS = 468,500 + 78,000 – 107,000 = 439,500
-  ',
+                ansExplain: '<div class="ExplnAns">Correct answer is B.</div> COGM = Used Material + DL + MOH + Beg. WIP – End. WIP = (115,000 + 35,800 + 38,000 – 45,000) + 236,000 + (59,000 + 18,700) + 21,000 – 10,000 = 468,500 , COGS = COGM + Beg. FG – End. FG => COGS = 468,500 + 78,000 – 107,000 = 439,500',
 },
 {
   id: 24,
-    q: "Given the following data for a company, what is the cost of goods sold? <table>
+    q: `Given the following data for a company, what is the cost of goods sold? <table>
       < tr >
     <th>Item</th>
     <th>Amount</th>
@@ -514,7 +509,7 @@ options: [
     <td>Ending work-in-process inventory</td>
     <td>$50,000</td>
   </tr>
-</table > ",
+</table >`,
   options: [
     "a. $500,000",
     "b. $600,000",
@@ -531,7 +526,7 @@ options: [
 },
 {
   id: 25,
-    q: "An entity had the following opening and closing inventory balances during the current year: <table>
+    q: `An entity had the following opening and closing inventory balances during the current year: <table>
       < tr >
   <th></th>
   <th>1/1</th>
@@ -556,8 +551,7 @@ options: [
 •	$300,000 of raw materials were purchased, of which $20,000 were returned because of defects.
 •	$600,000 of direct labor costs were incurred.
 •	$750,000 of production overhead costs were incurred.
-The cost of goods sold for the current year ended December 31 would be
-  ",
+The cost of goods sold for the current year ended December 31 would be`,
   options: [
     "a. $1,480,000",
     "b. $1,500,000",
@@ -570,8 +564,7 @@ The cost of goods sold for the current year ended December 31 would be
           yourNote: "",
             yourChck: "",
               id2: 1,
-                ansExplain: '<div class="ExplnAns">Correct answer is A.</div> COGS = Used Material + DL + MOH + Beg. WIP – End. WIP + Beg. FG – End. FG
-=> COGS = (300,000 – 20,000 + 105,000 – 130,000) + 600,000 + 750,000 + 220,000 – 175,000 + 90,000 – 260,000 = 1, 480,000',
+                ansExplain: '<div class="ExplnAns">Correct answer is A.</div> COGS = Used Material + DL + MOH + Beg. WIP – End. WIP + Beg. FG – End. FG => COGS = (300,000 – 20,000 + 105,000 – 130,000) + 600,000 + 750,000 + 220,000 – 175,000 + 90,000 – 260,000 = 1, 480,000',
 },
 {
   id: 26,
@@ -592,7 +585,7 @@ The cost of goods sold for the current year ended December 31 would be
 },
 {
   id: 27,
-    q: "The profit and loss statement of an entity includes the following information for the current fiscal year:   <table>
+    q: `The profit and loss statement of an entity includes the following information for the current fiscal year:   <table>
       < tr >
     <th>Item</th>
     <th>Amount</th>
@@ -613,7 +606,7 @@ The cost of goods sold for the current year ended December 31 would be
     <td>Opening finished goods inventory</td>
     <td>$60,190</td>
   </tr>
-</table > The cost of goods manufactured by the entity for the current fiscal year is: ",
+</table > The cost of goods manufactured by the entity for the current fiscal year is: `,
   options: [
     "a. $46,110",
     "b. $49,890",
@@ -626,12 +619,11 @@ The cost of goods sold for the current year ended December 31 would be
           yourNote: "",
             yourChck: "",
               id2: 1,
-                ansExplain: '<div class="ExplnAns">Correct answer is C.</div>Gross Profit = Sales – COGS => 48,000 = 160,000 – COGS => COGS = 160,000 – 48,000 = 112,000 , COGS = COGM + Beg. FG – End. FG => 112,000 = COGM + 60,190 – 58,300 => COGM = 112,000 – 60,190 + 58,300 = 110,110
-  ',
+                ansExplain: '<div class="ExplnAns">Correct answer is C.</div>Gross Profit = Sales – COGS => 48,000 = 160,000 – COGS => COGS = 160,000 – 48,000 = 112,000 , COGS = COGM + Beg. FG – End. FG => 112,000 = COGM + 60,190 – 58,300 => COGM = 112,000 – 60,190 + 58,300 = 110,110',
 },
 {
   id: 28,
-    q: "A retail entity maintains a markup of 25% based on cost. The entity has the following information for the current year: <table>
+    q: `A retail entity maintains a markup of 25% based on cost. The entity has the following information for the current year: <table>
       < tr >
     <th>Item</th>
     <th>Amount</th>
@@ -652,7 +644,7 @@ The cost of goods sold for the current year ended December 31 would be
     <td>Ending inventory</td>
     <td>$80,000</td>
   </tr>
-</table > Beginning inventory was: ",
+</table > Beginning inventory was: `,
   options: [
     "a. $40,000",
     "b. $85,000",
@@ -665,12 +657,11 @@ The cost of goods sold for the current year ended December 31 would be
           yourNote: "",
             yourChck: "",
               id2: 1,
-                ansExplain: '<div class="ExplnAns">Correct answer is B.</div>COGS=900,000 ×	100/125	= 720,000 => COGS = Net purchases + Beg. Inventory – End. Inventory => 720,000 = (690,000 + 25,000) +     Beg. Inventory – 80,000 => Beg. Inventory = 85,000
-  ',
+                ansExplain: '<div class="ExplnAns">Correct answer is B.</div>COGS=900,000 ×	100/125	= 720,000 => COGS = Net purchases + Beg. Inventory – End. Inventory => 720,000 = (690,000 + 25,000) +     Beg. Inventory – 80,000 => Beg. Inventory = 85,000',
 },
 {
   id: 29,
-    q: "What is the cost of ending inventory given the following factors?<table>
+    q: `What is the cost of ending inventory given the following factors?<table>
       < tr >
     <th>Item</th>
     <th>Amount</th>
@@ -691,7 +682,7 @@ The cost of goods sold for the current year ended December 31 would be
     <td>Direct labor</td>
     <td>$40,000</td>
   </tr>
-</table > ",
+</table > `,
   options: [
     "a. $5,000",
     "b. $10,000",
@@ -704,8 +695,7 @@ The cost of goods sold for the current year ended December 31 would be
           yourNote: "",
             yourChck: "",
               id2: 1,
-                ansExplain: '<div class="ExplnAns">Correct answer is B.</div>COGS = Total production cost (COGM) + Beg. FG – End. FG => 55,000 = 60,000 + 5,000 – End. Inventory => End. Inventory =     65,000 – 55,000 = 10,000
-  ',
+                ansExplain: '<div class="ExplnAns">Correct answer is B.</div>COGS = Total production cost (COGM) + Beg. FG – End. FG => 55,000 = 60,000 + 5,000 – End. Inventory => End. Inventory =     65,000 – 55,000 = 10,000',
 },
 {
   id: 30,
@@ -722,12 +712,11 @@ The cost of goods sold for the current year ended December 31 would be
               yourNote: "",
                 yourChck: "",
                   id2: 1,
-                    ansExplain: '<div class="ExplnAns">Correct answer is C.</div>GP = 10,000,000 x 25% = 2,500,000 => NOI = 10,000,000 x 15% = 1,500,000 => NOI = Gross profit – Operating expenses => 1,500,000 = 2,500,000 - Operating expenses => Operating expenses = 2,500,000 – 1,500,000 = 1,000,000 => Operating expenses will reduce by = 1,000,000 x 20% = 200,000 => NOI will increase by 200,000 (13.3%) and there is no effect on Gross profit.
-  ',
+                    ansExplain: '<div class="ExplnAns">Correct answer is C.</div>GP = 10,000,000 x 25% = 2,500,000 => NOI = 10,000,000 x 15% = 1,500,000 => NOI = Gross profit – Operating expenses => 1,500,000 = 2,500,000 - Operating expenses => Operating expenses = 2,500,000 – 1,500,000 = 1,000,000 => Operating expenses will reduce by = 1,000,000 x 20% = 200,000 => NOI will increase by 200,000 (13.3%) and there is no effect on Gross profit.',
 },
 {
   id: 31,
-    q: "The following information pertains to a corporation’s income statement for the 12 months just ended The company has an effective income tax rate of 40%. <table>
+    q: `The following information pertains to a corporation’s income statement for the 12 months just ended The company has an effective income tax rate of 40%. <table>
       < tr >
     <th>Item</th>
     <th>Amount</th>
@@ -744,12 +733,12 @@ The cost of goods sold for the current year ended December 31 would be
     <td>Cumulative effect of change in accounting principle</td>
     <td>$60,000</td>
   </tr>
-</table > Net income for the year is : ",
-  options: [
-    "a. $36,000",
-    "b. $12,000",
-    "c. $8,000",
-    "d. $30,000",
+</table > Net income for the year is : `,
+      options: [
+        "a. $36,000",
+        "b. $12,000",
+        "c. $8,000",
+        "d. $30,000",
   ],
     answer: 4,
       notID: 31,
@@ -863,7 +852,7 @@ The cost of goods sold for the current year ended December 31 would be
 },
 {
   id: 38,
-    q: "The trial balance of Mint Corp. at December 31, Year 6, is presented below and has been adjusted except for income tax expense. Other financial data for the year ended December 31, Year 6, are as follows:
+    q: `The trial balance of Mint Corp. at December 31, Year 6, is presented below and has been adjusted except for income tax expense. Other financial data for the year ended December 31, Year 6, are as follows:
 •	During Year 6, estimated tax payments of $450,000 were charged to prepaid taxes.Mint has not recorded income tax expense.There were no temporary or permanent differences, and Mint’s tax rate is 30 %. < table >
 <tr>
   <th>Account</th>
@@ -940,7 +929,7 @@ The cost of goods sold for the current year ended December 31 would be
   <td>$12,810,000</td>
   <td>$12,810,000</td>
 </tr>
-</table > In Mint’s December 31, Year 6, balance sheet, what amount should be reported as total retained earnings ? ",
+</table > In Mint’s December 31, Year 6, balance sheet, what amount should be reported as total retained earnings ? `,
   options: [
     "a. $1,950,000",
     "b. $2,110,000",
@@ -1008,7 +997,7 @@ The cost of goods sold for the current year ended December 31 would be
 },
 {
   id: 42,
-    q: "Benedict Corporation reports the following information: <table>
+    q: `Benedict Corporation reports the following information: <table>
       < tr >
     <th>Item</th>
     <th>Amount</th>
@@ -1029,7 +1018,7 @@ The cost of goods sold for the current year ended December 31 would be
     <td>Weighted average ordinary shares outstanding</td>
     <td>125,000</td>
   </tr>
-</table > Benedict should report earnings per share of",
+</table > Benedict should report earnings per share of`,
   options: [
     "a. $2.40",
     "b. $2.88",
@@ -1046,7 +1035,7 @@ The cost of goods sold for the current year ended December 31 would be
 },
 {
   id: 43,
-    q: "Norling Corporation reports the following information: <table>
+    q: `Norling Corporation reports the following information: <table>
       < tr >
     <th>Item</th>
     <th>Amount</th>
@@ -1067,7 +1056,7 @@ The cost of goods sold for the current year ended December 31 would be
     <td>Weighted average ordinary shares outstanding</td>
     <td>250,000</td>
   </tr>
-</table > Norling should report earnings per share of",
+</table > Norling should report earnings per share of`,
   options: [
     "a. $1.20",
     "b. $1.44",
@@ -1101,7 +1090,7 @@ The cost of goods sold for the current year ended December 31 would be
 },
 {
   id: 45,
-    q: "Given the following: <table>
+    q: `Given the following: <table>
       < tr >
     <th>Item</th>
     <th>Amount</th>
@@ -1122,7 +1111,7 @@ The cost of goods sold for the current year ended December 31 would be
     <td>Weighted average ordinary shares outstanding</td>
     <td>160,000</td>
   </tr>
-</table > Determine the amount of the preference share dividend.",
+</table > Determine the amount of the preference share dividend.`,
   options: [
     "a. $480,000",
     "b. $320,000",
@@ -1173,7 +1162,7 @@ The cost of goods sold for the current year ended December 31 would be
 },
 {
   id: 48,
-    q: "A company reports the following information as of December 31: <table>
+    q: `A company reports the following information as of December 31: <table>
       < tr >
     <th>Item</th>
     <th>Amount</th>
@@ -1194,7 +1183,7 @@ The cost of goods sold for the current year ended December 31 would be
     <td>Unrealized holding gain on available-for-sale debt securities, net of tax</td>
     <td>$30,000</td>
   </tr>
-</table > What amount should the company report as comprehensive income as of December 31 ? ",
+</table > What amount should the company report as comprehensive income as of December 31 ? `,
   options: [
     "a. $30,000",
     "b. $110,000",
@@ -1211,10 +1200,9 @@ The cost of goods sold for the current year ended December 31 would be
 },
 {
   id: 49,
-    q: "A company is preparing its financial statements in accordance with U.S. GAAP. Listed below are select financial data for the company.
+    q: `A company is preparing its financial statements in accordance with U.S. GAAP. Listed below are select financial data for the company.
 Net income = $950,000, Depreciation = $40,000, Investment by owners = $60,000, Unrealized gain on available -for-sale securities = $90,000, Foreign currency translation loss = $20,000
-What is the amount that would be reported as comprehensive income ?
-    ",
+What is the amount that would be reported as comprehensive income ?`,
   options: [
     "a. $970,000",
     "b. $1,020,000",
@@ -1231,7 +1219,7 @@ What is the amount that would be reported as comprehensive income ?
 },
 {
   id: 50,
-    q: "A company’s net income totaled $12,000,000. The company had an unusual loss of $250,000, an unrealized after-tax gain of $25,000 on available-for-sale debt securities, and a $900,000 distribution of cash dividends. The company’s comprehensive income was",
+    q: "A company's net income totaled $12,000,000. The company had an unusual loss of $250,000, an unrealized after-tax gain of $25,000 on available-for-sale debt securities, and a $900,000 distribution of cash dividends. The company’s comprehensive income was",
       options: [
         "a. $10,875,000",
         "b. $11,775,000",
