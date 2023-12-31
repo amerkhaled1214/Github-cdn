@@ -97,24 +97,24 @@ let scrollInterval;
 
 document
   .getElementById("scrollUpBtn")
-  .addEventListener("mouseright", function () {
+  .addEventListener("mousedown", function () {
     scrollInterval = setInterval(function () {
-      document.getElementById("lstBtns").scrollLeft -= 10;
+      document.getElementById("lstBtns").scrollTop -= 10;
     }, 10);
   });
 document
   .getElementById("scrollDownBtn")
-  .addEventListener("mouseleft", function () {
+  .addEventListener("mousedown", function () {
     scrollInterval = setInterval(function () {
-      document.getElementById("lstBtns").scrollRight += 10;
+      document.getElementById("lstBtns").scrollTop += 10;
     }, 10);
   });
 
 document.getElementById("scrollUpBtn").addEventListener("click", function () {
-  document.getElementById("lstBtns").scrollLeft -= 60;
+  document.getElementById("lstBtns").scrollTop -= 60;
 });
 document.getElementById("scrollDownBtn").addEventListener("click", function () {
-  document.getElementById("lstBtns").scrollLeft += 60;
+  document.getElementById("lstBtns").scrollTop += 60;
 });
 
 document.addEventListener("mouseup", function () {
@@ -129,6 +129,7 @@ var NotIcon = document.getElementById("NotIcon");
 var calcbody = document.getElementById("calcbody");
 var calcbtn = document.getElementById("calcbtn");
 var DropId = document.getElementById("DropId");
+var StngId = document.getElementById("StngId");
 DropId.style.display = "none";
 NoteArea.style.display = "none";
 calcbody.style.display = "none";
@@ -144,6 +145,7 @@ function OpnNotFnc() {
   calcbody.style.display = "none";
   calcbtn.style.color = "#000";
   DropId.style.display = "none";
+  StngId.style.color = "#000";
 }
 
 function opencalc() {
@@ -157,8 +159,22 @@ function opencalc() {
   NoteArea.style.display = "none";
   NotIcon.style.color = "#000";
   DropId.style.display = "none";
+  StngId.style.color = "#000";
 }
 
+function StngFnc() {
+  if (DropId.style.display === "block") {
+    DropId.style.display = "none";
+    StngId.style.color = "#000";
+  } else {
+    DropId.style.display = "block";
+    StngId.style.color = "#8cc63f";
+  }
+  NoteArea.style.display = "none";
+  NotIcon.style.color = "#000";
+  calcbody.style.display = "none";
+  calcbtn.style.color = "#000";
+}
 
 var not = document.getElementById("not");
 var Clear = document.getElementById("Clear");
@@ -1972,7 +1988,7 @@ const showEssayQuestion = (i) => {
         <div id="Que"> ${question.q} </div>
         <div class="answers-containers">  
         <div class="popup-essay-btns">
-        <button onClick="openPdf('${question.timeValues}')" style="display: flex; align-items: center; justify-content: center; gap: 8px;">
+        <button onClick="openPdf()" style="display: flex; align-items: center; justify-content: center; gap: 8px;">
           <span
             aria-hidden="true">
             <svg style="width: 17px; height: 17px;" fill="currentColor" role="img"
@@ -1995,7 +2011,7 @@ const showEssayQuestion = (i) => {
             158v32h544q92 0 158 66t66 158z"></path>
          </svg>
         </button>
-        <button onClick="openPdf('${question.essayScenario}')"  style="display: flex; align-items: center; justify-content: center; gap: 8px;">
+        <button onClick="openPdf()"  style="display: flex; align-items: center; justify-content: center; gap: 8px;">
           <span
             aria-hidden="true">
             <svg style="width: 17px; height: 17px;" fill="currentColor" role="img"
@@ -2153,9 +2169,9 @@ function startEssayEXAM() {
 
   QnmVluFnc();
 }
-function openPdf(pdfLink) {
+function openPdf() {
   // Specify the path to your PDF file
-  var pdfPath = `${pdfLink}`;
+  var pdfPath = "DC.pdf";
 
   // Specify the size and features of the new window
   var windowFeatures =
