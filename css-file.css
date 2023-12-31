@@ -413,11 +413,9 @@ body {
     background-color: #8cc63f;
     border-radius: 5px;
     padding: 5px 1px;
-    min-width: 60px;
-    max-height: 33px;
-    max-width: 60px;
+    width: 60px;
     display: block;
-    margin: 0 5px;
+    margin: 5px 0;
     transition: all 0.3s;
     border: none;
     font-size: 18px;
@@ -589,7 +587,7 @@ table th {
 
 ::-webkit-scrollbar-thumb {
     height: 3px;
-    background: #8cc63f;
+    background: #ccc;
     width: 3px;
 }
 
@@ -597,34 +595,25 @@ table th {
     background-color: #4cc63f;
     border-radius: 5px;
     padding: 2px;
-    min-width: 30px;
-    height: 65px;
+    width: 61px;
+    height: 30px;
+    margin: auto;
     border: none;
     outline: none;
     cursor: pointer;
 }
-#QuList {
-    margin-bottom: 10px;
-    align-items: center;
-    display: flex;
-    justify-content:space-between
-}
-#btnsDIV{
-    display: flex;
-    width:100%;
-    justify-content:space-between;
-}
+
 .scrlBTNs i {
     color: #fff;
     font-size: 20px;
 }
+
 #lstBtns {
     border-radius: 5px;
     display: inline-block;
     text-align: center;
-    padding: 10px 5px;
-    width:100%;
-    margin: 3px 10px;
+    padding: 0 5px;
+    margin: 3px 0;
     max-height: 500px;
     overflow: auto;
 }
@@ -974,8 +963,8 @@ table th {
 #main1 .bar1:nth-child(1) {
     position: absolute;
     left: 5px;
-    line-height: 20px;
-    color: #fff;
+    line-height: 0px;
+    color: #fecc2d;
 }
 
 #main1 .bar1:nth-child(2) {
