@@ -19,7 +19,7 @@ function updateElementWithArrayCount(array) {
   var count = array.length;
 
   // Multiply by 2
-  var result = count * 2;
+  var result = count * 5;
 
   if (result > 360) {
     result = 360;
