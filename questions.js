@@ -14,6 +14,7 @@ const MainScrptQues = [
     yourNote: "",
     yourChck: "",
     id2: 1,
+    timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
     ansExplain: '<div class="ExplnAns">Correct answer B.</div>'
   },
   {
@@ -31,6 +32,7 @@ const MainScrptQues = [
     yourNote: "",
     yourChck: "",
     id2: 1,
+    timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
     ansExplain: '<div class="ExplnAns">Correct answer C.</div>'
   },
   {
@@ -48,6 +50,7 @@ const MainScrptQues = [
     yourNote: "",
     yourChck: "",
     id2: 1,
+    timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
     ansExplain: '<div class="ExplnAns">Correct answer D.</div>'
   },
   {
@@ -65,6 +68,7 @@ const MainScrptQues = [
     yourNote: "",
     yourChck: "",
     id2: 1,
+    timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
     ansExplain: '<div class="ExplnAns">Correct answer A.</div>'
   },
   {
@@ -82,6 +86,7 @@ const MainScrptQues = [
     yourNote: "",
     yourChck: "",
     id2: 1,
+    timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
     ansExplain: '<div class="ExplnAns">Correct answer D.</div>'
   },
   {
@@ -99,6 +104,7 @@ const MainScrptQues = [
     yourNote: "",
     yourChck: "",
     id2: 1,
+    timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
     ansExplain: '<div class="ExplnAns">Correct answer C.</div>'
   },
   {
@@ -116,6 +122,7 @@ const MainScrptQues = [
     yourNote: "",
     yourChck: "",
     id2: 1,
+    timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
     ansExplain: '<div class="ExplnAns">Correct answer B.</div>'
   },
   {
@@ -133,6 +140,7 @@ const MainScrptQues = [
     yourNote: "",
     yourChck: "",
     id2: 1,
+    timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
     ansExplain: '<div class="ExplnAns">Correct answer B.</div>'
   },
   {
@@ -150,6 +158,7 @@ const MainScrptQues = [
     yourNote: "",
     yourChck: "",
     id2: 1,
+    timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
     ansExplain: '<div class="ExplnAns">Correct answer A.</div>'
   },
   {
@@ -167,6 +176,7 @@ const MainScrptQues = [
     yourNote: "",
     yourChck: "",
     id2: 1,
+    timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
     ansExplain: '<div class="ExplnAns">Correct answer D.</div>'
   },
   {
@@ -186,6 +196,7 @@ const MainScrptQues = [
     yourNote: "",
     yourChck: "",
     id2: 1,
+    timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
     ansExplain: '<div class="ExplnAns">Correct answer C.</div>'
   },
   {
@@ -203,6 +214,7 @@ const MainScrptQues = [
     yourNote: "",
     yourChck: "",
     id2: 1,
+    timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
     ansExplain: '<div class="ExplnAns">Correct answer D.</div>'
   },
   {
@@ -220,6 +232,7 @@ const MainScrptQues = [
     yourNote: "",
     yourChck: "",
     id2: 1,
+    timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
     ansExplain: '<div class="ExplnAns">Correct answer B.</div>'
   },
   {
@@ -237,6 +250,7 @@ const MainScrptQues = [
     yourNote: "",
     yourChck: "",
     id2: 1,
+    timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
     ansExplain: '<div class="ExplnAns">Correct answer B.</div>'
   },
   {
@@ -254,6 +268,7 @@ const MainScrptQues = [
     yourNote: "",
     yourChck: "",
     id2: 1,
+    timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
     ansExplain: '<div class="ExplnAns">Correct answer A.</div>'
   }
 ];
