@@ -1988,7 +1988,7 @@ const showEssayQuestion = (i) => {
         <div id="Que"> ${question.q} </div>
         <div class="answers-containers">  
         <div class="popup-essay-btns">
-        <button onClick="openPdf('${question.timeValues}')" style="display: flex; align-items: center; justify-content: center; gap: 8px;">
+        <button onClick="openPdf('${question.essayScenario}')" style="display: flex; align-items: center; justify-content: center; gap: 8px;">
           <span
             aria-hidden="true">
             <svg style="width: 17px; height: 17px;" fill="currentColor" role="img"
@@ -2011,7 +2011,7 @@ const showEssayQuestion = (i) => {
             158v32h544q92 0 158 66t66 158z"></path>
          </svg>
         </button>
-        <button onClick="openPdf('${question.essayScenario}')"  style="display: flex; align-items: center; justify-content: center; gap: 8px;">
+        <button onClick="openPdf('${question.timeValues}')"  style="display: flex; align-items: center; justify-content: center; gap: 8px;">
           <span
             aria-hidden="true">
             <svg style="width: 17px; height: 17px;" fill="currentColor" role="img"
