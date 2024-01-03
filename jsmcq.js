@@ -376,14 +376,63 @@ const showQuestion = (i) => {
     question = questions[index];
     let options = generateOptions();
     quizContainer.innerHTML = `<div class="pointer-container"></div>
-                                                    <div id="Que"> ${question.q} </div>
-                                                    <div class="answers-containers"> ${options} </div>`;
+                                <div id="Que"> ${question.q} </div>
+                                <div class="popup-essay-btns">
+                                  <button onClick="openPdf('${question.essayScenario}')"  style="display: flex; align-items: center; justify-content: center; gap: 8px;">
+                                    <span
+                                      aria-hidden="true">
+                                      <svg style="width: 17px; height: 17px;" fill="currentColor" role="img"
+                                        viewBox="0 0 1792 1792" class="g-icon g-file-pdf" aria-label="file pdf"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1596 380q28 28 48 76t20 88v1152q0 40-28 68t-68 28h-1344q-40 0-68-28t-28-68v-1600q0-40 28-68t68-28h896q40
+                                    0 88 20t76 48zm-444-244v376h376q-10-29-22-41l-313-313q-12-12-41-22zm384 1528v-1024h-416q-40
+                                    0-68-28t-28-68v-416h-768v1536h1280zm-514-593q33 26 84 56 59-7 117-7 147 0 177 49 16 22 2 52 0 1-1 2l-2 2v1q-6 38-71
+                                    38-48 0-115-20t-130-53q-221 24-392 83-153 262-242 262-15 0-28-7l-24-12q-1-1-6-5-10-10-6-36 9-40 56-91.5t132-96.5q14-9
+                                    23 6 2 2 2 4 52-85 107-197 68-136 104-262-24-82-30.5-159.5t6.5-127.5q11-40 42-40h22q23 0 35 15 18 21 9 68-2 6-4 8 1 3
+                                    1 8v30q-2 123-14 192 55 164 146 238zm-576 411q52-24 137-158-51 40-87.5 84t-49.5 74zm398-920q-15 42-2 132 1-7 7-44 0-3
+                                    7-43 1-4 4-8-1-1-1-2-1-2-1-3-1-22-13-36 0 1-1 2v2zm-124 661q135-54 284-81-2-1-13-9.5t-16-13.5q-76-67-127-176-27 86-83
+                                    197-30 56-45 83zm646-16q-24-24-140-24 76 28 124 28 14 0 18-1 0-1-2-3z"></path>
+                                      </svg>
+                                    </span>Time Value Tables
+                                    <span aria-hidden="true">
+                                      <svg style="width: 17px; height: 17px;" fill="currentColor" role="img"
+                                        viewBox="0 0 1792 1792" class="g-icon g-external-link" aria-label="external link"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1408 928v320q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119
+                                                        84.5-203.5t203.5-84.5h704q14 0 23 9t9 23v64q0 14-9 23t-23 9h-704q-66 0-113 47t-47 113v832q0 66 47
+                                                        113t113 47h832q66 0 113-47t47-113v-320q0-14 9-23t23-9h64q14 0 23 9t9 23zm384-864v512q0 26-19 45t-45
+                                                        19-45-19l-176-176-652 652q-10 10-23 10t-23-10l-114-114q-10-10-10-23t10-23l652-652-176-176q-19-19-19-45t19-45
+                                                        45-19h512q26 0 45 19t19 45z"></path>
+                                      </svg>
+                                    </span>
+                          
+                                  </button>                                                    
+                                  <div class="answers-containers"> ${options} </div>`;
     document.getElementById("CorAnsNum").innerHTML = question.answer;
     document.getElementById("explainID1").innerHTML = question.ansExplain;
     document.getElementById("QuID").innerHTML = question.id;
     document.getElementById("QuID2").innerHTML = "ID:" + question.id;
     document.getElementById("QueDlelID").innerHTML =
       "Q: " + (index + 1) + " Of " + questions.length;
+
+    const noteStord =
+      (notesDB.find((n) => n.notID === question.notID) || {}).noteStord || "";
+    noteElement.id = `noteStord-${question.notID}`;
+    noteElement.value = question.noteStord || noteStord;
+    noteElement.addEventListener("keyup", () =>
+      saveNoteForQuestion(question.notID)
+    ); // Add event lisnr to save noteStord on keyup
+    NootesDiv.appendChild(noteElement);
+  } else {
+    alert("Invalid question");
+  }
+  loadNotesForQuestions();
+  question.yourNote = noteElement.value;
+  if (question.yourChck == "") {
+  } else {
+    document.getElementById(question.yourChck).click();
+  }
+};
 
     const noteStord =
       (notesDB.find((n) => n.notID === question.notID) || {}).noteStord || "";
