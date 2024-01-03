@@ -9,8 +9,8 @@ const MainScrptQues = [
     yourNote: "",
     yourChck: "",
     id2: 1,
-    timeValues: "https://drive.google.com/file/d/1WwJdYYr9-jnz5HvxUQ9ypYOvoccScgMb/view?usp=sharing",
-    essayScenario: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
+    timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
+    essayScenario: "https://drive.google.com/file/d/1WwJdYYr9-jnz5HvxUQ9ypYOvoccScgMb/view?usp=sharing",
     ansExplain:
       '<div class="ExplnAns">Correct answer D.</div> The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations. ',
   },
@@ -24,8 +24,8 @@ const MainScrptQues = [
   yourNote: "",
   yourChck: "",
   id2: 1,
-  timeValues: "https://drive.google.com/file/d/1WwJdYYr9-jnz5HvxUQ9ypYOvoccScgMb/view?usp=sharing",
-  essayScenario: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
+  timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
+  essayScenario: "https://drive.google.com/file/d/1WwJdYYr9-jnz5HvxUQ9ypYOvoccScgMb/view?usp=sharing",
   ansExplain:
     '<div class="ExplnAns">Correct answer D.</div> The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations. ',
   },
@@ -39,8 +39,8 @@ const MainScrptQues = [
     yourNote: "",
     yourChck: "",
     id2: 1,
-    timeValues: "https://drive.google.com/file/d/1WwJdYYr9-jnz5HvxUQ9ypYOvoccScgMb/view?usp=sharing",
-    essayScenario: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
+    timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
+    essayScenario: "https://drive.google.com/file/d/1WwJdYYr9-jnz5HvxUQ9ypYOvoccScgMb/view?usp=sharing",
     ansExplain:
       '<div class="ExplnAns">Correct answer D.</div> The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations. ',
     },
@@ -54,8 +54,8 @@ const MainScrptQues = [
       yourNote: "",
       yourChck: "",
       id2: 1,
-      timeValues: "https://drive.google.com/file/d/1WwJdYYr9-jnz5HvxUQ9ypYOvoccScgMb/view?usp=sharing",
-      essayScenario: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
+      timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
+      essayScenario: "https://drive.google.com/file/d/1WwJdYYr9-jnz5HvxUQ9ypYOvoccScgMb/view?usp=sharing",
       ansExplain:
         '<div class="ExplnAns">Correct answer D.</div> The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations. ',
     },
@@ -69,8 +69,8 @@ const MainScrptQues = [
         yourNote: "",
         yourChck: "",
         id2: 1,
-        timeValues: "https://drive.google.com/file/d/1WwJdYYr9-jnz5HvxUQ9ypYOvoccScgMb/view?usp=sharing",
-        essayScenario: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
+        timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
+        essayScenario: "https://drive.google.com/file/d/1WwJdYYr9-jnz5HvxUQ9ypYOvoccScgMb/view?usp=sharing",
         ansExplain:
           '<div class="ExplnAns">Correct answer D.</div> The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations. ',
     }
