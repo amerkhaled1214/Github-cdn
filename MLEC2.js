@@ -27,14 +27,14 @@
         "C. Income = Revenues + Gains",
         "D. Income = Gains – Losses"
       ],
-      answer: 1,
+      answer: 3,
       notID: 2,
       yourAns: "",
       yourNote: "",
       yourChck: "",
       id2: 1,
       ansExplain:
-        '<div class="ExplnAns">Correct answer: A. Income = Revenues – Expenses.</div>',
+        '<div class="ExplnAns">Correct answer: C. Income = Revenues + Gains </div>',
     },
   
     {
@@ -46,14 +46,14 @@
         "C. Finance costs.",
         "D. Tax expense."
       ],
-      answer: 3,
+      answer: 2,
       notID: 3,
       yourAns: "",
       yourNote: "",
       yourChck: "",
       id2: 1,
       ansExplain:
-        '<div class="ExplnAns">Correct answer: C. Finance costs.</div>',
+        '<div class="ExplnAns">Correct answer: B. Other gains/losses </div>',
     },
   
     {
@@ -122,14 +122,14 @@
         "C. Freight-out.",
         "D. Store supplies consumed."
       ],
-      answer: 1,
+      answer: 2,
       notID: 7,
       yourAns: "",
       yourNote: "",
       yourChck: "",
       id2: 1,
       ansExplain:
-        '<div class="ExplnAns">Correct answer: A. Advertising expense.</div>',
+        '<div class="ExplnAns">Correct answer: B. Office salaries expense.</div>',
     },
   
     {
@@ -160,14 +160,14 @@
         "C. Investments by owners.",
         "D. Unrealized holding gains."
       ],
-      answer: 1,
+      answer: 3,
       notID: 9,
       yourAns: "",
       yourNote: "",
       yourChck: "",
       id2: 1,
       ansExplain:
-        '<div class="ExplnAns">Correct answer: A. Dividend revenue.</div>',
+        '<div class="ExplnAns">Correct answer: "C. Investments by owners."</div>',
     },
   
     {
