@@ -64,6 +64,8 @@ function timer() {
     s.innerHTML = 0;
     document.getElementById("ClocIcon").style.pointerEvents = "none";
     document.getElementById("TimRem").innerHTML = "Time's up";
+
+    SubmitQuiz2();
   } else if (s.innerHTML != 0) {
     s.innerHTML--;
   } else if (m.innerHTML != 0 && s.innerHTML == 0) {
@@ -80,19 +82,19 @@ function stopInterval() {
 }
 var TimRem = document.getElementById("TimRem");
 var ClocIcon = document.getElementById("ClocIcon");
-function pausTime() {
-  if (TimRem.innerHTML == "Time Remaining") {
-    stopInterval();
-    TimRem.innerHTML = "Time Paused";
-    TimRem.style.color = "#F78181";
-    ClocIcon.style.color = "#F78181";
-  } else {
-    startTim();
-    TimRem.innerHTML = "Time Remaining";
-    TimRem.style.color = "#fff";
-    ClocIcon.style.color = "#fff";
-  }
-}
+// function pausTime() {
+//   if (TimRem.innerHTML == "Time Remaining") {
+//     stopInterval();
+//     TimRem.innerHTML = "Time Paused";
+//     TimRem.style.color = "#F78181";
+//     ClocIcon.style.color = "#F78181";
+//   } else {
+//     startTim();
+//     TimRem.innerHTML = "Time Remaining";
+//     TimRem.style.color = "#fff";
+//     ClocIcon.style.color = "#fff";
+//   }
+// }
 let scrollInterval;
 
 document
@@ -1459,7 +1461,7 @@ function setTimFunc() {
   s.innerHTML = 0;
 }
 
-let randDlel = 3;
+let randDlel = 1;
 function chkk(value) {
   randDlel = value;
 }
