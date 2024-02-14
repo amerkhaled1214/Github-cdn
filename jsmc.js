@@ -57,42 +57,8 @@ function startTim() {
   }
   startInterval();
 }
-function timer() {
-  if (h.innerHTML == 0 && m.innerHTML == 0 && s.innerHTML == 0) {
-    h.innerHTML = 0;
-    m.innerHTML = 0;
-    s.innerHTML = 0;
-    document.getElementById("ClocIcon").style.pointerEvents = "none";
-    document.getElementById("TimRem").innerHTML = "Time's up";
-  } else if (s.innerHTML != 0) {
-    s.innerHTML--;
-  } else if (m.innerHTML != 0 && s.innerHTML == 0) {
-    s.innerHTML = 59;
-    m.innerHTML--;
-  } else if (h.innerHTML != 0 && m.innerHTML == 0) {
-    m.innerHTML = 60;
-    h.innerHTML--;
-  }
-  return;
-}
-function stopInterval() {
-  clearInterval(startTimer);
-}
 var TimRem = document.getElementById("TimRem");
 var ClocIcon = document.getElementById("ClocIcon");
-function pausTime() {
-  if (TimRem.innerHTML == "Time Remaining") {
-    stopInterval();
-    TimRem.innerHTML = "Time Paused";
-    TimRem.style.color = "#F78181";
-    ClocIcon.style.color = "#F78181";
-  } else {
-    startTim();
-    TimRem.innerHTML = "Time Remaining";
-    TimRem.style.color = "#fff";
-    ClocIcon.style.color = "#fff";
-  }
-}
 let scrollInterval;
 
 document
@@ -334,8 +300,8 @@ const addAnswer = () => {
         ArrWrng.splice(ArrWrng.indexOf(MainScrptQues[QuID.innerHTML - 1]), 1);
       }
     }
-    console.log(ArrCor);
-    console.log(ArrWrng);
+    // console.log(ArrCor);
+    // console.log(ArrWrng);
   } else {
     if (ArrWrng.includes(MainScrptQues[QuID.innerHTML - 1])) {
     } else {
@@ -344,8 +310,8 @@ const addAnswer = () => {
         ArrCor.splice(ArrCor.indexOf(MainScrptQues[QuID.innerHTML - 1]), 1);
       }
     }
-    console.log(ArrCor);
-    console.log(ArrWrng);
+    // console.log(ArrCor);
+    // console.log(ArrWrng);
   }
 };
 
@@ -355,7 +321,7 @@ function AddflagQ() {
   } else {
     ArrFlag.push(MainScrptQues[QuID.innerHTML - 1]);
     notifMSG.style.maxHeight = "50px";
-    console.log(ArrFlag);
+    // console.log(ArrFlag);
     setTimeout(() => {
       notifMSG.style.maxHeight = "0";
     }, 1500);
@@ -794,7 +760,6 @@ function infAdd02() {
   percEnd02.innerHTML =
     Math.round((ArrCor.length / questions.length) * 100) + " %";
 
-  stopInterval();
   document.getElementById("timeEnd02").innerHTML =
     document.getElementById("countdown").innerHTML;
   document.getElementById("timeQend02").innerHTML =
@@ -1574,6 +1539,27 @@ function SubmitQuiz2() {
   infAdd02();
   clos();
 }
+function timer() {
+  if (h.innerHTML == 0 && m.innerHTML == 0 && s.innerHTML == 0) {
+    h.innerHTML = 0;
+    m.innerHTML = 0;
+    s.innerHTML = 0;
+    document.getElementById("ClocIcon").style.pointerEvents = "none";
+    document.getElementById("TimRem").innerHTML = "Time's up";
+
+    SubmitQuiz2();
+  } else if (s.innerHTML != 0) {
+    s.innerHTML--;
+  } else if (m.innerHTML != 0 && s.innerHTML == 0) {
+    s.innerHTML = 59;
+    m.innerHTML--;
+  } else if (h.innerHTML != 0 && m.innerHTML == 0) {
+    m.innerHTML = 60;
+    h.innerHTML--;
+  }
+  return;
+}
+
 var AlertMsg = document.getElementById("AlertMsg");
 function clos() {
   AlertMsg.style.display = "none";
@@ -2146,60 +2132,60 @@ function StartShowEssayQ() {
   WaitQuiz();
 }
 
-function startEssayEXAM() {
-  addQQ();
+// function startEssayEXAM() {
+//   addQQ();
 
-  if (randDlel == 1) {
-    questions.sort(function (a, b) {
-      return a.id - b.id;
-    });
-    questions.splice(qnmV.value, questions.length);
-    StartShowEssayQ();
-  } else if (randDlel == 2) {
-    questions.splice(qnmV.value, questions.length);
-    StartShowEssayQ();
-  } else if (randDlel == 3) {
-    questions.sort(function () {
-      return 0.5 - Math.random();
-    });
-    questions.sort(function () {
-      return 0.5 - Math.random();
-    });
-    questions.sort(function () {
-      return 0.5 - Math.random();
-    });
-    questions.sort(function () {
-      return 0.5 - Math.random();
-    });
-    questions.sort(function () {
-      return 0.5 - Math.random();
-    });
-    questions.sort(function () {
-      return 0.5 - Math.random();
-    });
-    questions.sort(function () {
-      return 0.5 - Math.random();
-    });
-    questions.sort(function () {
-      return 0.5 - Math.random();
-    });
-    questions.splice(qnmV.value, questions.length);
-    StartShowEssayQ();
-  } else {
-    alert("there are no choice");
-  }
-  for (var i = 0; i < pages.length; i++) {
-    pages[i].style.display = "none";
-  }
+//   if (randDlel == 1) {
+//     questions.sort(function (a, b) {
+//       return a.id - b.id;
+//     });
+//     questions.splice(qnmV.value, questions.length);
+//     StartShowEssayQ();
+//   } else if (randDlel == 2) {
+//     questions.splice(qnmV.value, questions.length);
+//     StartShowEssayQ();
+//   } else if (randDlel == 3) {
+//     questions.sort(function () {
+//       return 0.5 - Math.random();
+//     });
+//     questions.sort(function () {
+//       return 0.5 - Math.random();
+//     });
+//     questions.sort(function () {
+//       return 0.5 - Math.random();
+//     });
+//     questions.sort(function () {
+//       return 0.5 - Math.random();
+//     });
+//     questions.sort(function () {
+//       return 0.5 - Math.random();
+//     });
+//     questions.sort(function () {
+//       return 0.5 - Math.random();
+//     });
+//     questions.sort(function () {
+//       return 0.5 - Math.random();
+//     });
+//     questions.sort(function () {
+//       return 0.5 - Math.random();
+//     });
+//     questions.splice(qnmV.value, questions.length);
+//     StartShowEssayQ();
+//   } else {
+//     alert("there are no choice");
+//   }
+//   for (var i = 0; i < pages.length; i++) {
+//     pages[i].style.display = "none";
+//   }
 
-  for (var i = 0; i < scrlBTNs.length; i++) {
-    if (questions.length < 14) {
-      scrlBTNs[i].style.display = "none";
-    }
-  }
+//   for (var i = 0; i < scrlBTNs.length; i++) {
+//     if (questions.length < 14) {
+//       scrlBTNs[i].style.display = "none";
+//     }
+//   }
 
-  QnmVluFnc();
-}
+//   QnmVluFnc();
+// }
 function openPdf(pdfLink) {
   // Specify the path to your PDF file
   var pdfPath = `${pdfLink}`;
