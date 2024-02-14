@@ -930,6 +930,7 @@ table th {
 }
 
 #main1 {
+    position: relative;
     background-color: #4d4c4d;
     padding: 10px;
     display: flex;
@@ -962,6 +963,7 @@ table th {
 
 #main1 .bar1:nth-child(1) {
     position: absolute;
+    top: -10px;
     left: 5px;
     line-height: 0px;
     color: #fecc2d;
@@ -1676,7 +1678,7 @@ iframe {
 
 
 /* for phone */
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 768px) {
     #Qmark {
         font-size: 50px;
         color: #2b9ed8;
