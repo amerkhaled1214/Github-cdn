@@ -26,14 +26,14 @@ const MainScrptQues = [
       "C. To provide forecasts for future cash flows and financial performance.",
       "D. To provide information that is useful for economic decision making."
     ],
-    answer: 3,
+    answer: 4,
     notID: 2,
     yourAns: "",
     yourNote: "",
     yourChck: "",
     id2: 1,
     timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
-    ansExplain: '<div class="ExplnAns">Correct answer C.</div>'
+    ansExplain: '<div class="ExplnAns">Correct answer D.</div>'
   },
   {
     id: 3,
@@ -44,14 +44,14 @@ const MainScrptQues = [
       "C. reporting on management's stewardship.",
       "D. the need for conservatism."
     ],
-    answer: 4,
+    answer: 2,
     notID: 3,
     yourAns: "",
     yourNote: "",
     yourChck: "",
     id2: 1,
     timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
-    ansExplain: '<div class="ExplnAns">Correct answer D.</div>'
+    ansExplain: '<div class="ExplnAns">Correct answer B.</div>'
   },
   {
     id: 4,
