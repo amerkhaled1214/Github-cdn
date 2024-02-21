@@ -1,5 +1,4 @@
 const MainScrptQues = [
-  const MainScrptQues = [
     {
       id: 1,
       q: "Prepaid expenses are:",
