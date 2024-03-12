@@ -98,14 +98,14 @@ timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/v
       "c. Gains and losses.",
       "d. Revenues.",
     ],
-    answer: 3,
+    answer: 2,
     notID: 6,
     yourAns: "",
     yourNote: "",
     yourChck: "",
     id2: 1,
 timeValues: "https://drive.google.com/file/d/1Pub1iP9byprNvqcSSxS_b2L3RSoiD8AN/view?usp=sharing",
-    ansExplain: '<div class="ExplnAns">Correct answer is C.</div>'
+    ansExplain: '<div class="ExplnAns">Correct answer is B.</div>'
   },
   {
     id: 7,
