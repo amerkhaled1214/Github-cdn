@@ -1853,6 +1853,168 @@ const MainScrptQues = [
     Furthermore, enterprise risk management is an ongoing activity. Review and revision is an important component of ERM. As part of its regular review of the organization’s performance, management should consider how well the components of its enterprise risk management are functioning over time. If substantial changes occur, management should consider what revisions are needed.
     </div>`
   }
+,{
+    id: 102,
+    q: "Which one of the following is an example of operational risk?",
+    options: [
+      "A. Internal fraud.",
+      "B. Vendor litigation.",
+      "C. Contractual breach.",
+      "D. Tax increase."
+    ],
+    answer: 1, // A
+    notID: 102,
+    yourAns: "",
+    yourNote: "",
+    yourChck: "",
+    id2: 1,
+    ansExplain:
+      '<div class="ExplnAns">Correct answer: A (Internal fraud).</div>',
+  },
+  {
+    id: 103,
+    q: "A company has hired a consultant to provide a qualitative assessment of the map to illustrate the findings, showing",
+    options: [
+      "A. the risks facing the company and their connection to the corporate strategies.",
+      "B. a ranking of the risks prioritized in order of importance to the company.",
+      "C. the sequential steps the company must take to address the risks it is facing.",
+      "D. a matrix of the risks compared to predefined criteria, such as impact and probability."
+    ],
+    answer: 4, // A
+    notID: 103,
+    yourAns: "",
+    yourNote: "",
+    yourChck: "",
+    id2: 1,
+    ansExplain:
+      '<div class="ExplnAns">Correct answer: D.</div>',
+  },
+  {
+    id: 104,
+    q: "The COSO enterprise risk management (ERM) framework focuses on",
+    options: [
+      "A. integrating risk management within the business activities and processes.",
+      "B. systematically classifying all risks to the organization.",
+      "C. understanding the responsibilities of management accountants in ERM projects.",
+      "D. identifying an risk management philosophy and risk appetite."
+    ],
+    answer: 1, // A
+    notID: 104,
+    yourAns: "",
+    yourNote: "",
+    yourChck: "",
+    id2: 1,
+    ansExplain:
+      '<div class="ExplnAns">Correct answer: A (integrating risk management within the business activities and processes).</div>',
+  },
+  {
+    id: 105,
+    q: "If a company wants to reduce its operational risk, which one of the following initiatives would be most effective for the company to take?",
+    options: [
+      "A. Focus its sales efforts on its largest customers.",
+      "B. Increase its breakeven point.",
+      "C. Factor its accounts receivable, without recourse.",
+      "D. Expand its product offerings."
+    ],
+    answer: 4, // A
+    notID: 105,
+    yourAns: "",
+    yourNote: "",
+    yourChck: "",
+    id2: 1,
+    ansExplain:
+      '<div class="ExplnAns">Correct answer: D.</div>',
+  },
+  {
+    id: 106,
+    q: "A package delivery company runs the risk of losing money due to automobile accidents. To manage this risk the company is considering a zero-deductible auto accident insurance policy. What type of risk response would this be?",
+    options: [
+      "A. Transfer.",
+      "B. Mitigation.",
+      "C. Acceptance.",
+      "D. Sharing."
+    ],
+    answer: 1, // A
+    notID: 106,
+    yourAns: "",
+    yourNote: "",
+    yourChck: "",
+    id2: 1,
+    ansExplain:
+      '<div class="ExplnAns">Correct answer: A (Transfer).</div>',
+  },
+  {
+    id: 107,
+    q: "When implementing its enterprise risk management program, a company acquired a corporate-wide insurance policy covering all hazard risks. Under the policy, the insurance company will cover losses above a minimum amount. By taking this approach, the company has determined that the policy coverage:",
+    options: [
+      "A. transfers the residual hazard risk to the insurance company underwriting the policy.",
+      "B. reduces the inherent hazard risk to an acceptable level of residual risk.",
+      "C. avoids enough residual hazard risk that the only exposure left is the inherent risk.",
+      "D. retains enough of the inherent hazard risk to make the residual risk cost effective."
+    ],
+    answer: 2, // A
+    notID: 107,
+    yourAns: "",
+    yourNote: "",
+    yourChck: "",
+    id2: 1,
+    ansExplain:
+      '<div class="ExplnAns">Correct answer: B.</div>',
+  },
+  {
+    id: 108,
+    q: "The treasurer of a company has an objective to minimize financial risk in the intermediate to long term. Which one of the following options would be optimal if additional cash were needed?",
+    options: [
+      "A. Issue additional long-term mortgage bonds.",
+      "B. Sell and lease back the corporate office building.",
+      "C. Issue commercial paper.",
+      "D. Issue additional common stock."
+    ],
+    answer: 4, // A
+    notID: 108,
+    yourAns: "",
+    yourNote: "",
+    yourChck: "",
+    id2: 1,
+    ansExplain:
+      '<div class="ExplnAns">Correct answer: D.</div>',
+  },
+  {
+    id: 109,
+    q: "A company that adopts a value-at-risk approach",
+    options: [
+      "A. seeks to generate interest income that exceeds the losses incurred on the investments.",
+      "B. calculates how much money the company loses or gains from the cash investments.",
+      "C. estimates how much income varies vs. budget based on sensitivity to interest rates.",
+      "D. ensures the probability of a loss on the investments does not exceed a specified limit."
+    ],
+    answer: 4, // A
+    notID: 109,
+    yourAns: "",
+    yourNote: "",
+    yourChck: "",
+    id2: 1,
+    ansExplain:
+      '<div class="ExplnAns">Correct answer: D.</div>',
+  },
+  {
+    id: 110,
+    q: "Which one of the following statements concerning the COSO Enterprise Risk Management (ERM) framework is most accurate?",
+    options: [
+      "A. Enterprise risk management focuses on strategy and objectives within an entity.",
+      "B. Enterprise risk management is carried out by a dedicated department within an entity.",
+      "C. Enterprise risk management primarily addresses internal control issues of an entity.",
+      "D. Enterprise risk management focuses principally on identifying potential negative impacts on an entity."
+    ],
+    answer: 1, // A
+    notID: 110,
+    yourAns: "",
+    yourNote: "",
+    yourChck: "",
+    id2: 1,
+    ansExplain:
+      '<div class="ExplnAns">Correct answer: A (Enterprise risk management focuses on strategy and objectives within an entity).</div>',
+  }
 ];
 
 
